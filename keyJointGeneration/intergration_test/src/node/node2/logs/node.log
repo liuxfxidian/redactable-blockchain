@@ -1,0 +1,13 @@
+2024-06-24T10:15:13.024278326+08:00 INFO intergration_test::node::node2::node2 - node2 is listening on 0.0.0.0:50002
+2024-06-24T10:15:13.024517042+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-06-24T10:15:27.142348754+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-06-24T10:15:27.143838513+08:00 INFO intergration_test::node::node2::node2 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-06-24T10:15:27.143872637+08:00 INFO intergration_test::node::node2::node2 - Keygen phase is staring!
+2024-06-24T10:15:27.143893446+08:00 INFO node::gs_tbk_scheme::keygen_phase - Key is generating!
+2024-06-24T10:15:27.176392581+08:00 INFO intergration_test::node::node2::node2 - From id : 3 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-06-24T10:15:27.176620527+08:00 INFO intergration_test::node::node2::node2 - From id : 4 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-06-24T10:15:27.177621623+08:00 INFO intergration_test::node::node2::node2 - From id : 1 ,Role : Group Manager Node Get NodeKeyGenPhaseOneBroadcastMsg 
+2024-06-24T10:15:27.532900457+08:00 INFO intergration_test::node::node2::node2 - From Proxy Node Get ProxyToNodeKeyGenPhaseThreeP2PMsg
+2024-06-24T10:15:27.542544541+08:00 INFO node::gs_tbk_scheme::keygen_phase - dl verify res: true
+2024-06-24T10:15:27.552114530+08:00 INFO intergration_test::node::node2::node2 - From Proxy Node Get ProxyToNodeKeyGenPhaseFiveP2PMsg
+2024-06-24T10:15:27.552883467+08:00 INFO node::gs_tbk_scheme::keygen_phase - distributed key is generated!

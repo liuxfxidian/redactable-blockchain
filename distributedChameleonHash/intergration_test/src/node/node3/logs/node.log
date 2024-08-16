@@ -1,0 +1,13 @@
+2024-06-24T17:06:59.656341839+08:00 INFO intergration_test::node::node3::node3 - node3 is listening on 0.0.0.0:50003
+2024-06-24T17:06:59.656485411+08:00 INFO node::gs_tbk_scheme::setup_phase - Setup phase is starting!
+2024-06-24T17:07:03.138956441+08:00 INFO intergration_test::node::node3::node3 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseBroadcastMsg
+2024-06-24T17:07:03.140341629+08:00 INFO intergration_test::node::node3::node3 - From id : 0 ,Role : Proxy  Get ProxySetupPhaseFinishFlag
+2024-06-24T17:07:03.140364562+08:00 INFO intergration_test::node::node3::node3 - Keygen phase is staring!
+2024-06-24T17:07:03.140377417+08:00 INFO node::gs_tbk_scheme::keygen_phase - Adapt is starting!
+2024-06-24T17:07:03.140508446+08:00 INFO node::gs_tbk_scheme::keygen_phase - sk is Secp256k1Scalar { purpose: "from_bigint", fe: Zeroizing(Some(SK(SecretKey(7c8091ca31329af3442e8e612ddf058ea8e7326ce92cb7c97d7c6d4c93f10a7e)))) }
+2024-06-24T17:07:03.140614387+08:00 INFO node::gs_tbk_scheme::keygen_phase - H is Secp256k1Point { purpose: "from_bytes", ge: Some(PK(PublicKey(a80629848cb657819b77732fd9094ab9cf3c51d8e54668025687b553e72ba366a84e88a82b3c6cbfaa841ee9196019f9c14401be953bbb18e852cff53243161b))) }
+2024-06-24T17:07:03.140640807+08:00 INFO node::gs_tbk_scheme::keygen_phase - R is Secp256k1Point { purpose: "from_bytes", ge: Some(PK(PublicKey(1be60987fb066fb503ae4403411c4a786d9a8bec156881c65926948df5836f44f705c54b97d6c6571c4b9cb6825d2699d32fcbc69997dfdd2e39e334d4f9da1e))) }
+2024-06-24T17:07:03.140653811+08:00 INFO node::gs_tbk_scheme::keygen_phase - s is Secp256k1Scalar { purpose: "from_bigint", fe: Zeroizing(Some(SK(SecretKey(0f4869e32c8e76d5dbcbf7422980fe82d6b4bf2124df0b1e51216dad91fd1ea9)))) }
+2024-06-24T17:07:03.169640253+08:00 INFO intergration_test::node::node3::node3 - Get ProxySetupPhaseFinishFlag
+2024-06-24T17:07:03.196883106+08:00 INFO node::gs_tbk_scheme::keygen_phase - H_new is Secp256k1Point { purpose: "sub", ge: Some(PK(PublicKey(a80629848cb657819b77732fd9094ab9cf3c51d8e54668025687b553e72ba366a84e88a82b3c6cbfaa841ee9196019f9c14401be953bbb18e852cff53243161b))) }
+2024-06-24T17:07:03.197248399+08:00 INFO node::gs_tbk_scheme::keygen_phase - CH adapt is finished

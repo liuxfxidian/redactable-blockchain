@@ -1,0 +1,23 @@
+2024-06-24T17:06:48.128436215+08:00 INFO intergration_test::proxy::proxy_node - Proxy_node is listening on 0.0.0.0:50000
+2024-06-24T17:06:54.333709644+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-06-24T17:06:54.333847636+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-06-24T17:06:56.896935455+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-06-24T17:06:56.897037198+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-06-24T17:06:59.657121373+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-06-24T17:06:59.657263583+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-06-24T17:07:02.137169617+08:00 INFO intergration_test::proxy::proxy_node - From Role : Group Manager Node, Get NodeToProxySetupPhaseP2PMsg
+2024-06-24T17:07:03.137930638+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is staring!
+2024-06-24T17:07:03.139245985+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-06-24T17:07:03.139398434+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-06-24T17:07:03.139474799+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-06-24T17:07:03.139571322+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 1 }
+2024-06-24T17:07:03.139621537+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Get NodeSetupPhaseFinishFlag
+2024-06-24T17:07:03.139719704+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 2 }
+2024-06-24T17:07:03.139774388+08:00 WARN intergration_test::proxy::proxy_node - Insufficient number of messages, and current number is Mutex { data: 3 }
+2024-06-24T17:07:03.139798503+08:00 INFO proxy::gs_tbk_scheme::setup_phase - Setup phase is finished!
+2024-06-24T17:07:03.140994573+08:00 INFO intergration_test::proxy::proxy_node - From id : 1, Role : Group Manager Node, Get NodeKeyGenPhaseOneBroadcastMsg
+2024-06-24T17:07:03.141093922+08:00 INFO intergration_test::proxy::proxy_node - From id : 2, Role : Group Manager Node, Get NodeKeyGenPhaseOneBroadcastMsg
+2024-06-24T17:07:03.141128798+08:00 INFO intergration_test::proxy::proxy_node - From id : 3, Role : Group Manager Node, Get NodeKeyGenPhaseOneBroadcastMsg
+2024-06-24T17:07:03.141181508+08:00 INFO intergration_test::proxy::proxy_node - From id : 4, Role : Group Manager Node, Get NodeKeyGenPhaseOneBroadcastMsg
+2024-06-24T17:07:03.168553210+08:00 INFO proxy::gs_tbk_scheme::keygen_phase - s_new_tatal is Secp256k1Scalar { purpose: "add", fe: Zeroizing(Some(SK(SecretKey(6c606d5384c38f8cc5def36459badc0ab134b73c0ab0cd312a225097f3a64bad)))) }
+2024-06-24T17:07:03.168644984+08:00 INFO proxy::gs_tbk_scheme::keygen_phase - CH adapt is finished
